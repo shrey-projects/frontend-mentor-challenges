@@ -14,4 +14,4 @@ Each folder contains the code for the respective challenge, with a demo link and
 
 | Challenge | Live Demo | Source | Tools / Techniques | Notes |
 |-----------|-----------|------|--------------------|-------|
-| [QR Code Component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) | [Live Demo](https://comforting-unicorn-25a90d.netlify.app/) | [View](https://github.com/shrey-projects/frontend-mentor-challenges/tree/main/qr-code-component) |  Flexbox, Google Fonts, Box-shadow | Centered card layout with responsive QR image. |
+| [QR Code Component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) | [Live Demo](https://qr-code-component-shrey.netlify.app/) | [View](https://github.com/shrey-projects/frontend-mentor-challenges/tree/main/qr-code-component) |  Flexbox, Google Fonts, Box-shadow | Centered card layout with responsive QR image. |
