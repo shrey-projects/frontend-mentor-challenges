@@ -14,5 +14,5 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/order-summary-card---responsive-layout-with-styled-background-pattern-rQtPzbeA5Y)
 - Live Site URL: [Live Demo](https://order-summary-component-shrey.netlify.app/)
