@@ -11,13 +11,13 @@ This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.
 
 ### Screenshot
 
-![](/design/screenshot.png)
+![](./design/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/bento-grid---advanced-responsive-layout-using-css-grid-BHiv9z8Tjl)
+- Live Site URL: [Live Demo](https://bento-grid-shrey.netlify.app/)
 
 ## Acknowledgments
 
-Special thanks to [KimDoesCode](https://www.youtube.com/watch?v=OzAc3eC6WQg) for inspiring my solution!
+Special thanks to [KimDoesCode](https://www.youtube.com/watch?v=OzAc3eC6WQg) for inspiring the solution!
