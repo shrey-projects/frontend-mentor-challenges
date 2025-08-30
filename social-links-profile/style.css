@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* root */
+:root {
+    /* colours */
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey700: hsl(0, 0%, 20%);
+    --grey800: hsl(0, 0%, 12%);
+    --grey900: hsl(0, 0%, 8%);
+
+    /* typography */
+    --ff-main: "Inter", sans-serif;
+    --fs-main: 14px;
+    --fs-large: 21px;
+    --fs-small: 12px;
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-700: 700;
+}
+
+/* reset */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    font-family: var(--ff-main);
+    font-size: var(--fs-main);
+    font-weight: var(--fw-600);
+    color: var(--white);
+    background-color: var(--grey900);
+    padding: 2rem 1rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.social-container {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--grey800);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.avatar-image {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+
+.social-name {
+    font-size: var(--fs-large);
+    font-weight: var(--fw-600);
+    margin-bottom: 0.3rem;
+}
+
+.social-location {
+    font-size: var(--fs-small);
+    font-weight: var(--fw-600);
+    color: var(--green);
+    margin-bottom: 0;
+}
+
+.social-description {
+    font-size: var(--fs-small);
+    font-weight: var(--fw-400);
+    margin: 1.5rem 0;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 90%;
+}
+
+.btn {
+    width: 100%;
+    padding: 0.75rem 0;
+    background-color: var(--grey700);
+    color: var(--white);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: var(--fs-main);
+    font-weight: var(--fw-400);
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn:hover {
+    background-color: var(--green);
+    color: var(--grey900);
+}
+
+@media (max-width: 500px) {
+    body {
+        padding: 1rem 0.25rem;
+    }
+    .social-container {
+        padding: 0 1rem;
+    }
+    .social-card {
+        padding: 1rem;
+    }
+    .avatar-image {
+        width: 75px;
+        margin: 1.5rem 0;
+    }
+    .btns {
+        margin-bottom: 1rem;
+    }
+}
