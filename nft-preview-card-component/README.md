@@ -14,5 +14,5 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live Demo](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/nft-preview-card---interactive-overlay-accent-hover-states-djnApOIjv_)
+- Live Site URL: [Live Demo](https://nft-preview-card-component-shrey.netlify.app/)
