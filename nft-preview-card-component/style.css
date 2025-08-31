@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    /* primary colours */
+    --blue500: hsl(215, 51%, 70%);
+    --cyan400: hsl(178, 100%, 50%);
+
+    /* neutral colours */
+    --blue950: hsl(217, 54%, 11%); /* main BG */
+    --blue900: hsl(216, 50%, 16%); /* card BG */
+    --blue800: hsl(215, 32%, 27%); /* line */
+    --white: hsl(0, 0%, 100%);
+
+    /* typography */
+    --ff-main: 'Outfit', sans-serif;
+    --fs-heading: 23px;
+    --fs-body: 18px;
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-600: 600;
+}
+
+/* reset */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    font-family: var(--ff-main);
+    font-size: var(--fs-body);
+    font-weight: var(--fw-400);
+    line-height: 1.1;
+    color: var(--white);
+    background-color: var(--blue950);
+    padding: 2rem 1rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.nft-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 1.2em;
+    background-color: var(--blue900);
+    gap: 1.1rem;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.3);
+}
+
+.equilibrium-wrapper {
+    position: relative;
+    cursor: pointer;
+}
+
+.equilibrium-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 255, 247, 0.5);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.equilibrium-wrapper:hover .equilibrium-overlay,
+.equilibrium-wrapper:focus .equilibrium-overlay {
+    opacity: 1;
+}
+
+.equilibrium-image {
+    border-radius: 0.5rem;
+}
+
+.title {
+    font-size: var(--fs-heading);
+    font-weight: var(--fw-600);
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.title:hover {
+    color: var(--cyan400);
+}
+
+.description {
+    font-size: var(--fs-body);
+    font-weight: var(--fw-300);
+    color: var(--blue500);
+    padding-bottom: 0.8rem;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--blue800);
+}
+
+.eth {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    color: var(--cyan400);
+    font-weight: var(--fw-600);
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    color: var(--blue500);
+}
+
+.profile-information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+}
+
+.profile-name {
+    font-size: var(--fs-body);
+    color: var(--blue500);
+}
+
+.name {
+    color: var(--white);
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.name:hover {
+    color: var(--cyan400);
+}
