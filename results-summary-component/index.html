@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="results">
+          <h1 class="results-title">Your Result</h1>
+          <div class="circle">
+            <p class="main-score">76</p>
+            <p class="total-score">of 100</p>
+          </div>
+          <h2 class="great">Great</h2>
+          <p class="description">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+        <div class="summary">
+          <h1 class="summary-title">Summary</h1>
+          <div class="buttons">
+            <button class="btn btn-reaction">
+              <div class="btn-meta">
+                <img src="./assets/images/icon-reaction.svg" alt="reaction" />
+                <p class="btn-heading reaction-text">Reaction</p>
+              </div>
+              <p class="sub-score">
+                <span style="color: hsl(224, 30%, 27%)">80</span> / 100
+              </p>
+            </button>
+            <button class="btn btn-memory">
+              <div class="btn-meta">
+                <img src="./assets/images/icon-memory.svg" alt="memory" />
+                <p class="btn-heading memory-text">Memory</p>
+              </div>
+              <p class="sub-score">
+                <span style="color: hsl(224, 30%, 27%)">92</span> / 100
+              </p>
+            </button>
+            <button class="btn btn-verbal">
+              <div class="btn-meta">
+                <img src="./assets/images/icon-verbal.svg" alt="verbal" />
+                <p class="btn-heading verbal-text">Verbal</p>
+              </div>
+              <p class="sub-score">
+                <span style="color: hsl(224, 30%, 27%)">61</span> / 100
+              </p>
+            </button>
+            <button class="btn btn-visual">
+              <div class="btn-meta">
+                <img src="./assets/images/icon-visual.svg" alt="visual" />
+                <p class="btn-heading visual-text">Visual</p>
+              </div>
+              <p class="sub-score">
+                <span style="color: hsl(224, 30%, 27%)">73</span> / 100
+              </p>
+            </button>
+          </div>
+          <button class="continue-btn">Continue</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
