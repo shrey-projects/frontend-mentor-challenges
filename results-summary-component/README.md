@@ -14,5 +14,5 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live Demo](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/results-summary-component---gradient-results-panel-CWBk8ihkYw)
+- Live Site URL: [Live Demo](https://results-summary-component-shrey.netlify.app/)
