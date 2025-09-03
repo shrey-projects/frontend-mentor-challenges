@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <img src="assets/images/logo.svg" alt="logo" />
+        </div>
+        <button class="btn-theme">
+          <img src="assets/images/icon-moon.svg" />
+        </button>
+      </header>
+
+      <main>
+        <div class="grid-header">
+          <h1>Extensions List</h1>
+          <div class="btns-filter">
+            <button id="all" class="btn-filter">All</button>
+            <button id="active" class="btn-filter">Active</button>
+            <button id="inactive" class="btn-filter">Inactive</button>
+          </div>
+        </div>
+
+        <div class="extensions-grid"></div>
+      </main>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
